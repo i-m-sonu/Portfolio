@@ -11,7 +11,7 @@
       .head {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: right;
       }
       nav div {
         align-items: center;
@@ -30,15 +30,27 @@
         align-items: center;
       }
       .info {
-        font-size: 45px;
+        font-size: 90px;
+        text-align: center;
+        margin: auto;
+        padding: 20px;
       }
       .mid img {
-        width: 20%;
-        border-radius: 50%;
+        width: 23%;
+        border-radius: 50px;
+        margin-left: 125px;
+       
       }
       .mid {
+        border-radius: 30px;
+        background-color: rgb(201, 195, 195);
         display: flex;
         flex-direction: row;
+        margin-top:  85px ;
+        padding: 53px;
+      }
+      .mid:hover{
+        
       }
 
       nav a:hover {
@@ -49,7 +61,7 @@
   <body>
     <nav>
       <div class="head">
-        <div class="about"><a href="">About</a></div>
+        <div class="about"><a href="#about">About</a></div>
 
         <div class="resume">
           <a href="/redirect/resume.html">Resume</a>
@@ -57,13 +69,16 @@
 
         <div class="contact"><a href="">Contact Information</a></div>
       </div>
+      <div class="feedback"><a href="">Feedback</a></div>
     </nav>
+    
 
     <div class="mid">
       <img src="/images/mypic.jpg" alt="profile picture" />
       <div class="info">
-        I am Sonu Kumar, Software Engineer and Public Speaker.
+        I'm <b>Sonu Kumar</b>, Software Engineer and Public Speaker.
       </div>
     </div>
+    <div class="about"></div>
   </body>
 </html>
