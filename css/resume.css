@@ -1,56 +1,57 @@
 * {
-    padding: auto;
-    margin: auto;
-  }
+  padding: auto;
+  margin: auto;
+}
 
-  body {
-    margin: 4%;
-    background-color: rgb(18, 156, 184);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .edu,
-  .pro,
-  .skill,
-  .int,
-  .act,
-  .ach,
-  .sum {
-    opacity: 0.8;
-    margin: 5%;
-    border-radius: 15px;
-    background-color: #fff;
-    padding: 20px;
-  }
+body {
+  margin: 4%;
+  background-color: rgb(18, 156, 184);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.edu,
+.pro,
+.skill,
+.int,
+.act,
+.ach,
+.sum {
+  opacity: 0.8;
+  margin: 5%;
+  border-radius: 15px;
+  background-color: #fff;
+  padding: 20px;
+}
 
 
-  .me h1 {
-    font-size: 64px;
-  }
+.me h1 {
+  font-size: 64px;
+}
 
-  .intro img {
-    margin-left: 5%;
-    border-radius: 100%;
-    width: 21%;
+.intro img {
+  margin-left: 5%;
+  border-radius: 100%;
+  width: 21%;
+  justify-content: center;
+  padding: 0%;
+  margin: 0%;
+}
 
-    padding: 0%;
-    margin: 0%;
-  }
+.intro {
+  display: flex;
 
-  .intro {
-    display: flex;
+}
 
-  }
+nav ul li {
+  display: flex;
+  float: right;
+  color: white;
+  text-decoration: none;
 
-  nav ul li {
-    display: flex;
-    float: right;
-    color: white;
-    text-decoration: none;
+}
 
-  }
-
-  .me {
-    color: #fff;
-    padding: 5%;
-  }
+.me {
+  color: #fff;
+  padding: 5%;
+}
