@@ -1,13 +1,53 @@
-* {
-  padding: auto;
-  margin: auto;
+
+
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: rgb(60, 69, 70);
+  margin: 0%;
+  
+}
+
+nav div {
+  align-items: center;
+}
+
+.about,
+.resume,
+.contact,
+.feedback {
+  font-size: 23px;
+  margin: 20px;
+  align-items: center;
+  
+}
+
+.about a,
+.resume a,
+.contact a,
+.feedback a {
+  text-decoration: none;
+  align-items: center;
+  color: aliceblue;
+}
+nav a:hover {
+  color: rgb(114, 173, 255);
+}
+
+.about:hover,
+.resume:hover,
+.contact:hover,
+.feedback:hover {
+  transform: scale(1.05);
 }
 
 body {
   margin: 4%;
-  background-color: rgb(18, 156, 184);
+  background-color: rgb(158, 138, 138);
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 0%;
 }
 
 .edu,
@@ -31,15 +71,21 @@ body {
 
 .intro img {
   margin-left: 5%;
+  
   border-radius: 100%;
-  width: 21%;
+  width: 27%;
   justify-content: center;
   padding: 0%;
   margin: 0%;
 }
 
 .intro {
+  padding-left: 86px;
+  padding-right:86px ;
   display: flex;
+  margin-left: 44px;
+  margin-top: 72px;
+  
 
 }
 
@@ -53,5 +99,6 @@ nav ul li {
 
 .me {
   color: #fff;
-  padding: 5%;
+  margin-left: 250px;
+  padding: -1%;
 }
