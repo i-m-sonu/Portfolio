@@ -43,4 +43,25 @@
     background-color: rgb(158, 138, 138);
     margin: 0%;
   }
-  
+  .me h1 {
+    font-size: 64px;
+  }
+  .me {
+    color: #fff;
+    margin-left: 163px;
+    padding: -1%;
+  }
+  .base{
+    display: flex;
+  }
+  .base img{
+    border-radius: 15px;
+    margin: 47px;
+    width: 30%;
+  }
+  .me h4{
+    padding: 20px;
+    color: #000;
+    border-radius: 15px;
+    background: rgb(201, 195, 195);;
+  }
