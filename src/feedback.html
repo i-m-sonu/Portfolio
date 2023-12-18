@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback</title>
+    <link rel="stylesheet" href="/css/feedback.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="head">
+        <div class="about"><a href="/main.html">About</a></div>
+
+        <div class="resume">
+          <a href="/src/resume.html">Resume</a>
+        </div>
+
+        <div class="contact">
+          <a href="/src/contact.html">Contact Information</a>
+        </div>
+        <div class="feedback"><a href="/src/feedback.html">Feedback</a></div>
+      </div>
+    </nav>
+    <div id="form">
+        <div class="container">
+            <h1>Feedback Form</h1>
+            <form id="container" onsubmit="submitForm(event)">
+              <label for="name">Name:</label>
+              <input type="text" id="name" required />
+      
+              <label for="email">Email:</label>
+              <input type="email" id="email" required />
+      
+              <label for="feedback">Feedback:</label>
+              <textarea id="feedback" rows="4" required></textarea>
+      
+              <input type="submit" class="submit">
+            </form>
+          </div>
+    </div>
+    <div class="base">
+      <a href="https://instagram.com/i.soonu">
+        <img src="/images/instagram.png" alt="insta" />
+      </a>
+      <a href="https://www.linkedin.com/in/sonu007">
+        <img src="/images/linkedin.png" alt="linkedin" />
+      </a>
+      <a href="https://github.com/i-m-sonu">
+        <img src="/images/github.png" alt="github" />
+      </a>
+      <a href="https://twitter.com/i_soonu_">
+        <img src="/images/twitter.png" alt="x" />
+      </a>
+    </div>
+
+    <script src="/js/data.js"></script>
+  </body>
+</html>

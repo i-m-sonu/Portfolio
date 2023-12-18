@@ -1,0 +1,127 @@
+body {
+  background-color: rgb(158, 138, 138);
+  margin: 0%;
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: rgb(60, 69, 70);
+  margin: 0%;
+
+}
+
+nav div {
+  align-items: center;
+}
+
+.about,
+.resume,
+.contact,
+.feedback {
+  font-size: 23px;
+  margin: 20px;
+  align-items: center;
+
+}
+
+.about a,
+.resume a,
+.contact a,
+.feedback a {
+  text-decoration: none;
+  align-items: center;
+  color: aliceblue;
+}
+
+nav a:hover {
+  color: rgb(114, 173, 255);
+}
+
+.about:hover,
+.resume:hover,
+.contact:hover,
+.feedback:hover {
+  transform: scale(1.05);
+}
+
+/* border*/
+body,
+form,
+h1,
+label,
+input,
+textarea,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the container and form */
+.container {
+
+  max-width: 600px;
+  margin: 150px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: rgb(201, 195, 195);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style form elements */
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.submit {
+  padding: 10px 20px;
+  background-color: #0073e6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #005bbf;
+}
+
+.base {
+  margin: 45px;
+  float: right;
+}
+
+.base img {
+  width: 35px;
+  padding: 18px;
+}
+.base a{
+  text-decoration: none;
+}

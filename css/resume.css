@@ -1,12 +1,10 @@
-
-
 .head {
   display: flex;
   flex-direction: row;
   justify-content: center;
   background: rgb(60, 69, 70);
   margin: 0%;
-  
+
 }
 
 nav div {
@@ -20,7 +18,7 @@ nav div {
   font-size: 23px;
   margin: 20px;
   align-items: center;
-  
+
 }
 
 .about a,
@@ -31,6 +29,7 @@ nav div {
   align-items: center;
   color: aliceblue;
 }
+
 nav a:hover {
   color: rgb(114, 173, 255);
 }
@@ -71,7 +70,7 @@ body {
 
 .intro img {
   margin-left: 5%;
-  
+
   border-radius: 100%;
   width: 27%;
   justify-content: center;
@@ -81,11 +80,11 @@ body {
 
 .intro {
   padding-left: 86px;
-  padding-right:86px ;
+  padding-right: 86px;
   display: flex;
   margin-left: 44px;
   margin-top: 72px;
-  
+
 
 }
 
@@ -101,4 +100,17 @@ nav ul li {
   color: #fff;
   margin-left: 250px;
   padding: -1%;
+}
+
+.base {
+  margin: 45px;
+  float: right;
+}
+
+.base img {
+  width: 35px;
+  padding: 18px;
+}
+.base a{
+  text-decoration: none;
 }
