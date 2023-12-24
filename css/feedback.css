@@ -125,3 +125,27 @@ textarea {
 .base a{
   text-decoration: none;
 }
+@media screen and (max-width: 600px) {
+
+
+  .about,
+  .resume,
+  .contact,
+  .feedback {
+    font-size: 16px;
+  }
+  .container{
+    margin: 27px;
+  }
+  .base {
+    margin: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+
+  .base img {
+    width: 20px;
+    padding: 8px;
+  }
+}
