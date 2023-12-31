@@ -9,6 +9,7 @@ body {
   justify-content: center;
   background: rgb(60, 69, 70);
   margin: 0%;
+  
 
 }
 
@@ -132,7 +133,7 @@ nav a:hover {
   }
 
   .para {
-    font-size: 20px;
+    font-size: 16px;
     padding: 10px;
     margin: 15px;
   }
