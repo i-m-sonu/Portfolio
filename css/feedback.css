@@ -133,6 +133,8 @@ textarea {
   .contact,
   .feedback {
     font-size: 16px;
+    margin: 2px;
+    padding: 13px;
   }
   .container{
     margin: 27px;

@@ -114,7 +114,11 @@ nav a:hover {
   .contact,
   .feedback {
     font-size: 16px;
+    margin: 2px;
+    padding: 13px;
   }
+
+
 
   .mid {
     margin: 10px;

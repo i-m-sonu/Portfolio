@@ -101,6 +101,8 @@ body {
   .contact,
   .feedback {
     font-size: 16px;
+    margin: 2px;
+    padding: 13px;
   }
 
   .base img {
