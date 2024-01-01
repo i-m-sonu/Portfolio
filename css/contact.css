@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background: rgb(60, 69, 70);
+  background: black;
   margin: 0%;
 
 }
@@ -42,7 +42,8 @@ nav a:hover {
 }
 
 body {
-  background-color: rgb(158, 138, 138);
+  background-image: linear-gradient(to bottom right, rgb(49, 70, 90), rgb(78, 37, 37), rgb(56, 56, 101));
+ 
   margin: 0%;
 }
 
@@ -73,7 +74,8 @@ body {
   padding: 20px;
   color: #000;
   border-radius: 15px;
-  background: rgb(201, 195, 195);
+  background-image: radial-gradient(#f9f0f0,#e1e9f1,rgb(239, 222, 251),rgb(247, 240, 237));
+ 
   ;
 }
 
@@ -83,7 +85,7 @@ body {
 }
 
 .basee img {
-
+  filter: invert(100%);
   width: 35px;
   padding: 18px;
 }
